@@ -1,5 +1,6 @@
 # Simple code that plots a map and stationary points on a map canvas
-# If this code does not make sure that the file path matches as per location on your pc.
+# If this code does not run make sure that the file path matches as per location on your pc.
+# Make sure the files given in the repository are copied to the same folder as your project file.
 
 
 import sys
@@ -23,8 +24,8 @@ def main():
     canvas.show() # Set canvas background color to black
 
     # Path to the shapefile
-    layer_path = "C:/Users/omerk/PycharmProjects/QGIS/QGIS_related_Files/PAK_adm2.shp"
-    new_layer = "C:/Users/omerk/PycharmProjects/QGIS/QGIS_related_Files/point_layer.shp"
+    layer_path = "C:/Users/omerk/PycharmProjects/QGIS/QGIS_related_Files/PAK_adm2.shp"  # change accordingly
+    new_layer = "C:/Users/omerk/PycharmProjects/QGIS/QGIS_related_Files/point_layer.shp"  # Change accordingly
     # Load the vector layer
     pak_layer = QgsVectorLayer(layer_path, "Shape File", "ogr")
     if not pak_layer.isValid():
