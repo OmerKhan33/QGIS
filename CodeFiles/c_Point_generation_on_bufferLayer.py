@@ -1,4 +1,6 @@
-
+# QGIS Point and Line Generator
+# This script generates random points and lines within a specified area in Pakistan using QGIS.
+# It demonstrates how to create memory layers, add features, and visualize them on a map canvas.
 
 import sys
 import numpy as np
