@@ -1,11 +1,12 @@
-import sys
+# In this code we will plot a buffer layer in combination with vector_layer
+# The buffer Layer has been created on QGIS software.
+# Remember to change file path as per your path specified in your PC
 
-from qgis._core import QgsField, QgsPointXY, QgsFeature, QgsGeometry, QgsProject
+import sys
 from qgis.core import QgsApplication, QgsVectorLayer
 from qgis.gui import QgsMapCanvas
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from PyQt5.QtCore import Qt, QVariant
-from qgis.utils import iface
+from PyQt5.QtCore import Qt
 
 
 # setup
