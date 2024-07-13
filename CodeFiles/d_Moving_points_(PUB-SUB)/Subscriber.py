@@ -1,3 +1,10 @@
+# In this code subscriber socket is created
+# Here the canvas is created on which map and points are displayed.
+# The subscriber receives the locations of the points from publisher.
+# These locations are used by subscriber to move the points at every instant.
+
+# Remember to Run the subscriber file first then the publisher
+# Remember to change file path as per your path of these files specified in your PC
 import zmq
 from qgis.PyQt.QtWidgets import *
 from qgis.core import *

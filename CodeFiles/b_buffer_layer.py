@@ -1,6 +1,7 @@
 # In this code we will plot a buffer layer in combination with vector_layer
 # The buffer Layer has been created on QGIS software.
-# Remember to change file path as per your path specified in your PC
+
+# Remember to change file path as per your path of these files specified in your PC
 
 import sys
 from qgis.core import QgsApplication, QgsVectorLayer

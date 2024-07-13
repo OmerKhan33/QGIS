@@ -2,6 +2,8 @@
 # The positions of the points will be received by subscriber abd displayed on the canvas.
 # AS the points change position at every instant.
 
+# Remember to Run the subscriber file first then the publisher
+# Remember to change file path as per your path of these files specified in your PC
 import zmq
 import time
 import pandas as pd

@@ -2,6 +2,8 @@
 # This script generates random points and lines within a specified area in Pakistan using QGIS.
 # It demonstrates how to create memory layers, add features, and visualize them on a map canvas.
 
+# Remember to change file path as per your path of these files specified in your PC
+
 import sys
 import numpy as np
 from qgis.core import (
